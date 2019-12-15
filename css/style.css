@@ -1334,3 +1334,20 @@ footer .container .col-md-7 p{
     transition:  background-color 1s;
     border: 1px solid  #2B2B2B;
 }
+.back-to-top {
+
+    position: fixed;
+    bottom: 120px;
+    right: 5px;
+    padding:10px;
+    z-index: 999;
+    display: none;
+    color: #ffffff;
+    background-color:#FF134C;
+    opacity: .5;
+}
+
+.back-to-top:hover {
+
+    color: #ffffff;
+    opacity: 1;}

@@ -134,3 +134,28 @@ $(document).ready(function() {
     $('#list').click(function(event){event.preventDefault();$('#products .item').addClass('list-group-item');});
     $('#grid').click(function(event){event.preventDefault();$('#products .item').removeClass('list-group-item');$('#products .item').addClass('grid-group-item');});
 });
+
+$( document ).ready(function() {
+
+    // appends html to body element - make sure you are linked to bootstrap icon fonts.
+    $( 'body' ).append('<a class="back-to-top" href="#"><i class="fas fa-arrow-up"></i></a>');
+
+
+    var offset = 400; // sets distance in pixels when back to top will appear
+    var fadeintime = 400;  // fade in duration
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > offset) {
+            $('.back-to-top').fadeIn(fadeintime);
+        } else {
+            $('.back-to-top').fadeOut(fadeintime);
+        }
+    });
+
+
+    $('.back-to-top').click(function(){
+        $("html, body").animate({scrollTop:0}, 'slow');
+        return false;
+
+    });
+
+});
