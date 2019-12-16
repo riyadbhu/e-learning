@@ -1,13 +1,15 @@
 @import "bootstrap.min.css";
 @import url(all.min.css);
 
-h1, h2, h3, h4, h5, h6, p, figure{
-    margin: 0;
-}
+
 .container{
     width: 1140px;
     margin: auto;
 }
+h1, h2, h3, h4, h5, h6, p, figure{
+    margin: 0;
+}
+
 ul{
     margin: 0;
     padding: 0;
@@ -65,14 +67,13 @@ header .bottom-header .col-6 li .active{
 header .bottom-header .col-6 a:hover{
     color: #FF134C;
 }
-
 header .bottom-header .col-9 a{
     color: #444;
 }
 header .bottom-header .col-9 a:hover{
     color: #FF134C;
 }
-header .bottom-header .col-9 li:first-child a{
+header .bottom-header .col-9 li .active{
     color: #FF134C;
 }
 .dropdown-menu{
@@ -131,6 +132,7 @@ header .bottom-header .container .row .col-6 .nav  .dropdown:hover .dropdown-men
 }
 
 /* Style for banner*/
+
 .carousel-caption{
     position: absolute;
     top: 41%;
@@ -191,8 +193,13 @@ header .bottom-header .container .row .col-6 .nav  .dropdown:hover .dropdown-men
 .bd-example .btn i{
     display: none;
 }
-.bd-example .btn:hover{
+.bd-example .bg:hover{
     color: white;
+    width:164.5px;
+}
+.bd-example .bg-transparent:hover{
+    color: white;
+    width: 163.5px;
 }
 .bd-example .btn:hover i{
     display:initial !important;
@@ -1337,9 +1344,9 @@ footer .container .col-md-7 p{
 .back-to-top {
 
     position: fixed;
-    bottom: 120px;
-    right: 5px;
-    padding:10px;
+    bottom: 5.5rem;
+    right: 0.25rem;
+    padding:0.7rem;
     z-index: 999;
     display: none;
     color: #ffffff;
@@ -1350,4 +1357,59 @@ footer .container .col-md-7 p{
 .back-to-top:hover {
 
     color: #ffffff;
-    opacity: 1;}
+    opacity: 1;
+}
+
+/*style for contact*/
+#contact .container h2{
+    margin-top: 2.5rem;
+    font-size:2.2rem;
+    color: #444444;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+}
+#contact .container p{
+    font-family: "Open Sans", sans-serif;
+    color:#444444 ;
+}
+#contact .container .placeholder{
+    width: 100%;
+}
+#contact .container .btn{
+    color: white;
+    background-color:#3D3D3D ;
+}
+#contact .container .btn:hover{
+    background-color: #FF134C;
+}
+#contact .container .col-md-6 .input-group{
+    margin-bottom: 2.2rem;
+}
+#contact .container .col-md-6 h3{
+    color:#444444;
+}
+
+#contact .container .col-md-6 h4{
+    color: #444444;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+}
+#contact .container .col-md-6 h5{
+    border:1px solid #FF134C;
+    width: 7%;
+}
+#contact .container .col-md-6 p{
+    margin-bottom: 0.1rem !important;
+    font-size:1.1rem ;
+}
+#contact .container .col-md-6 a{
+    text-decoration: none;
+    color: #444444;
+}
+#contact .container .col-md-6 a:hover{
+    color: #FF134C;
+}
+#contact .container .col-md-6{
+    padding-bottom: 2.5rem;
+    padding-top: 0.6rem;
+}
