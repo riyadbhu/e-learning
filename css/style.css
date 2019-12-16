@@ -1,7 +1,6 @@
 @import "bootstrap.min.css";
 @import url(all.min.css);
 
-
 .container{
     width: 1140px;
     margin: auto;
@@ -131,7 +130,9 @@ header .bottom-header .container .row .col-6 .nav  .dropdown:hover .dropdown-men
     display: block;
 }
 
-/* Style for banner*/
+
+
+/* Style for banner1*/
 
 .carousel-caption{
     position: absolute;
@@ -206,6 +207,8 @@ header .bottom-header .container .row .col-6 .nav  .dropdown:hover .dropdown-men
     color: white;
 }
 
+
+
 /*style for counter*/
 
 .counter {
@@ -216,7 +219,7 @@ header .bottom-header .container .row .col-6 .nav  .dropdown:hover .dropdown-men
     padding-left: 1.5rem;
     border-radius: 5px;
     margin-top: 6rem;
-    margin-bottom: 6rem;
+    margin-bottom:6rem;
     border: 2px solid #E5E5E5;
 
 }
@@ -235,6 +238,7 @@ header .bottom-header .container .row .col-6 .nav  .dropdown:hover .dropdown-men
     margin-bottom: 0;
     text-align: center;
 }
+
 
 
 /*Style for card*/
@@ -269,6 +273,9 @@ header .bottom-header .container .row .col-6 .nav  .dropdown:hover .dropdown-men
     color:#FF134C;
 }
 
+
+
+/*style for banner2*/
 .banner {
     background-image:url("../img/bg-02-1920x730.jpg");
     background-repeat: no-repeat;
@@ -306,6 +313,9 @@ header .bottom-header .container .row .col-6 .nav  .dropdown:hover .dropdown-men
 .sq-crousal4 .fa-angle-left {font-size: 45px;color: #444;left: -30px;position: relative;top: -5px;}
 .sq-crousal4 .fa-angle-right {font-size: 45px;color: #444;right: -110px;position: relative;top: -5px;}
 
+
+
+
 /*style for introduction*/
 
 .introduction .container{
@@ -316,12 +326,10 @@ header .bottom-header .container .row .col-6 .nav  .dropdown:hover .dropdown-men
     padding-bottom:0.8rem;
     font-weight: 600;
 }
-
 .introduction .container h2{
     border-bottom: 4px solid #FF134C ;
     width: 65px;
 }
-
 .introduction .container p{
     display: block;
     padding-top:0.5rem;
@@ -356,7 +364,6 @@ header .bottom-header .container .row .col-6 .nav  .dropdown:hover .dropdown-men
     margin-top: 30px;
 }
 
-/* Control buttons  */
 #quote-carousel .carousel-control
 {
     background: none;
@@ -365,17 +372,14 @@ header .bottom-header .container .row .col-6 .nav  .dropdown:hover .dropdown-men
     text-shadow: none;
     margin-top: 30px;
 }
-/* Previous button  */
 #quote-carousel .carousel-control.left
 {
     left: -12px;
 }
-/* Next button  */
 #quote-carousel .carousel-control.right
 {
     right: -12px !important;
 }
-/* Changes the position of the indicators */
 #quote-carousel .carousel-indicators
 {
     right: 50%;
@@ -383,7 +387,6 @@ header .bottom-header .container .row .col-6 .nav  .dropdown:hover .dropdown-men
     bottom: 0px;
     margin-right: -19px;
 }
-/* Changes the color of the indicators */
 #quote-carousel .carousel-indicators li
 {
     background: #c0c0c0;
@@ -397,7 +400,6 @@ header .bottom-header .container .row .col-6 .nav  .dropdown:hover .dropdown-men
     width: 250px;
     height: 100px
 }
-/* End carousel */
 
 .item blockquote {
     border-left: none;
@@ -415,12 +417,6 @@ header .bottom-header .container .row .col-6 .nav  .dropdown:hover .dropdown-men
     margin-right: 10px;
 }
 
-
-
-/**
-  MEDIA QUERIES
-*/
-
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     #quote-carousel
@@ -434,29 +430,29 @@ header .bottom-header .container .row .col-6 .nav  .dropdown:hover .dropdown-men
 /* Small devices (tablets, up to 768px) */
 @media (max-width: 768px) {
 
-    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
-
     #quote-carousel .carousel-indicators {
         bottom: -20px !important;
     }
     #quote-carousel .carousel-indicators li {
         display: inline-block;
-        margin: 0px 5px;
+        margin: 0 5px;
         width: 15px;
         height: 15px;
     }
     #quote-carousel .carousel-indicators li.active {
-        margin: 0px 5px;
+        margin: 0 5px;
         width: 20px;
         height: 20px;
     }
 }
 
+
+
+
 /*image slider*/
 
-
 .slick-slide {
-    margin: 0px 20px;
+    margin: 0 20px;
 }
 
 .slick-slide img {
@@ -631,6 +627,8 @@ header .bottom-header .container .row .col-6 .nav  .dropdown:hover .dropdown-men
     font-weight: 600;
 }
 
+
+
 /*style for about*/
 
 #about {
@@ -702,6 +700,7 @@ footer .container .col-md-7 p{
 }
 
 
+
 /*style for breadcrumb*/
 
 .breadcrumb .container .breadcrumb{
@@ -709,7 +708,6 @@ footer .container .col-md-7 p{
     padding-bottom: 0.5rem;
 
 }
-
 .breadcrumb li a{
     color:#1B1B1B ;
     font-size: 1rem;
@@ -731,6 +729,8 @@ footer .container .col-md-7 p{
 }
 
 
+
+
 /*Style for product detail page*/
 
 .xzoom-source img, .xzoom-preview img, .xzoom-lens img {
@@ -742,9 +742,6 @@ footer .container .col-md-7 p{
     -o-transition: none;
     transition: none;
 }
-/* --------------- */
-
-/* xZoom Styles below */
 .xzoom-container {
     display: inline-block;
 }
@@ -755,17 +752,16 @@ footer .container .col-md-7 p{
 }
 
 .xzoom {
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
-    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
 }
 .xzoom2, .xzoom3, .xzoom4, .xzoom5 {
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
-    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
 }
 
-/* Thumbs */
 .xzoom-gallery, .xzoom-gallery2, .xzoom-gallery3, .xzoom-gallery4, .xzoom-gallery5 {
     border: 1px solid #cecece;
     margin-left: 5px;
@@ -779,19 +775,16 @@ footer .container .col-md-7 p{
     clear: both;
 }
 
-/* Everything out of border is hidden */
 .xzoom-hidden {
     overflow: hidden;
 }
 
-/* Preview */
 .xzoom-preview {
     border: 1px solid #888;
     background: #2f4f4f;
     box-shadow: -0px -0px 10px rgba(0,0,0,0.50);
 }
 
-/* Lens */
 .xzoom-lens {
     border: 1px solid #555;
     box-shadow: -0px -0px 10px rgba(0,0,0,0.50);
@@ -807,16 +800,12 @@ footer .container .col-md-7 p{
     width: 48px;
     height: 48px;
 }
-
-/* Additional class that applied to thumb when it is active */
 .xactive {
-    -webkit-box-shadow: 0px 0px 3px 0px rgba(74,169,210,1);
-    -moz-box-shadow: 0px 0px 3px 0px rgba(74,169,210,1);
-    box-shadow: 0px 0px 3px 0px rgba(74,169,210,1);
+    -webkit-box-shadow: 0 0 3px 0 rgba(74,169,210,1);
+    -moz-box-shadow: 0 0 3px 0 rgba(74,169,210,1);
+    box-shadow: 0 0 3px 0 rgba(74,169,210,1);
     border: 1px solid #4aaad2;
 }
-
-/* Caption */
 .xzoom-caption {
     position: absolute;
     bottom: -43px;
@@ -834,6 +823,7 @@ footer .container .col-md-7 p{
     font-weight: bold;
     padding: 10px;
 }
+
 #product h4{
     color: #444444;
     font-size: 1.5rem;
@@ -846,7 +836,6 @@ footer .container .col-md-7 p{
 }
 #product .review .border-color{
     border-left: 1px solid #444444;
-
 }
 
 #product .container button{
@@ -882,6 +871,8 @@ footer .container .col-md-7 p{
 #product .container ul li .active{
     color: #FF134C;
 }
+
+
 
 
 /*style for course*/
@@ -954,7 +945,6 @@ footer .container .col-md-7 p{
 }
 .thumbnail .caption .person{
     margin: 0;
-    /*display: inline-block;*/
 }
 .item.list-group-item
 {
@@ -1034,7 +1024,6 @@ footer .container .col-md-7 p{
     float: left;
     width: 55%;
     margin: 0;
-    /*height: 12rem;*/
 }
 
 .item.list-group-item:before, .item.list-group-item:after
@@ -1093,9 +1082,6 @@ footer .container .col-md-7 p{
     border: 2px solid #FF134C;
     width: 25%;
 }
-/*.category > h4{*/
-/*border-bottom: 1px #777777;*/
-/*}*/
 .category > h4 > a{
     color: #444;
     font-size: 1rem;
@@ -1104,6 +1090,7 @@ footer .container .col-md-7 p{
 .category > h4 > a:hover{
     color:#FF134C;
 }
+
 
 /*Style for Popular Tags*/
 .popular-tags{
@@ -1138,6 +1125,8 @@ footer .container .col-md-7 p{
     transition: background-color 1s;
 }
 
+
+
 /*Style for Latest Posts*/
 .latest-post{
     margin-top: 2rem;
@@ -1158,10 +1147,10 @@ footer .container .col-md-7 p{
     font-size: 1rem;
     text-decoration: none;
 }
-
 #products p a{
     text-decoration: none;
 }
+
 @media (max-width: 776px) {
 #course .col-5 .form-control
     {
@@ -1169,6 +1158,8 @@ footer .container .col-md-7 p{
     }
 
 }
+
+
 
 /*style for sign-in*/
 #sign-in{
@@ -1246,7 +1237,6 @@ footer .container .col-md-7 p{
     border:1px solid red;
 }
 
-
 #logreg-forms button[type="submit"]{ margin-top:10px; }
 
 #logreg-forms .facebook-btn{  background-color:#3C589C; }
@@ -1270,9 +1260,8 @@ footer .container .col-md-7 p{
     color: #fff;
 }
 
-/* Mobile */
 
-@media screen and (max-width:500px){
+@media screen and (max-width:440px){
     #logreg-forms{
         width:300px;
     }
@@ -1359,6 +1348,8 @@ footer .container .col-md-7 p{
     color: #ffffff;
     opacity: 1;
 }
+
+
 
 /*style for contact*/
 #contact .container h2{
